@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculadora</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/scripts.js" defer></script>   <!-- tem o mesmo efeito de colocar ele no fim do boddy, ou seja, o arquivo js só será carregado, assim que todos os elementos tbm forem carregados -->
+</head>
+
+<body>
+   <div id="calc">
+        <h3>Calculadora</h3>
+        <div id="operations">  <!-- painel da calc -->
+            <div id="previous-operation">  <!-- operacao anterior da calc -->
+                
+            </div>
+            <div id="current-operation">  <!-- operacao atual digitada pelo usuario -->
+            
+            </div>
+        </div>
+        <div id="buttons-container">
+            <button>CE</button>
+            <button>C</button>
+            <button>DEL</button>
+            <button>/</button>
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button>*</button>
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button>-</button>
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button>+</button>
+            <button class="number">0</button>
+            <button>.</button>
+            <button id="equal-btn">=</button>  <!-- botao de igual -->
+        </div>
+   </div> 
+</body>
+</html>
